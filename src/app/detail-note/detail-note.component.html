@@ -1,0 +1,8 @@
+<div *ngFor="let item of arrayDisplay">
+  <br/>
+	Judul : {{item.judulNote}} <br/>
+  Isi : {{item.isiNote}} <br/>
+  Tanggal : {{item.tanggalNote}} <br/>
+  <button (click)="favorite(item.index)">favorite</button>
+  <br/>
+</div>
